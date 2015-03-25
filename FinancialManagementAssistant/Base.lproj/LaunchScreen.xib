@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="logo@3x.png" translatesAutoresizingMaskIntoConstraints="NO" id="uNY-LB-ILi">
+                    <rect key="frame" x="126" y="99" width="223" height="109"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="223" id="H2B-5y-Uzt"/>
+                        <constraint firstAttribute="height" constant="109" id="fXP-1C-yQP"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="H2B-5y-Uzt"/>
+                            <exclude reference="fXP-1C-yQP"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <mask key="constraints">
+                            <include reference="H2B-5y-Uzt"/>
+                            <include reference="fXP-1C-yQP"/>
+                        </mask>
+                    </variation>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uNY-LB-ILi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="126" id="N89-Uj-AVF"/>
+                <constraint firstItem="uNY-LB-ILi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="99" id="UHc-cW-vIt"/>
+                <constraint firstAttribute="trailing" secondItem="uNY-LB-ILi" secondAttribute="trailing" constant="131" id="wSh-eG-T4B"/>
+                <constraint firstAttribute="bottom" secondItem="uNY-LB-ILi" secondAttribute="bottom" constant="272" id="y3u-mz-sEs"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="N89-Uj-AVF"/>
+                    <exclude reference="UHc-cW-vIt"/>
+                    <exclude reference="wSh-eG-T4B"/>
+                    <exclude reference="y3u-mz-sEs"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=regular">
+                <mask key="constraints">
+                    <include reference="N89-Uj-AVF"/>
+                    <include reference="UHc-cW-vIt"/>
+                    <include reference="wSh-eG-T4B"/>
+                    <include reference="y3u-mz-sEs"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="logo@3x.png" width="446" height="218"/>
+    </resources>
+</document>
